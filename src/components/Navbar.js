@@ -8,11 +8,11 @@ class Navbar extends Component {
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         <a
           className="navbar-brand col-sm-3 col-md-2 mr-0"
-          href="http://www.dappuniversity.com/bootcamp"
+          href="https://github.com/IshanRakte"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Dapp University
+          BlockBook
         </a>
         
         <ul className="navbar-nav px-3">
@@ -21,7 +21,7 @@ class Navbar extends Component {
               <small id="account">{this.props.account}</small>
             </small>
             { this.props.account
-              ? <img
+              ? <img 
                 className='ml-2'
                 width='30'
                 height='30'
